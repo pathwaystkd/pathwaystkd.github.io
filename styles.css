@@ -1,6 +1,6 @@
 .iframe-doc {
     border: 0;
-    margin-top: 17px;
+    margin-top: 30px;
     width: 750px;
     height: 1000px;
     -moz-transform: scale(0.75, 0.75);
@@ -25,4 +25,20 @@
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: #263238;
+}
+
+.nopadding {
+   padding: 4px !important;
+   margin: 0px !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.iframe-header {
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    margin-left: 30px;
 }
